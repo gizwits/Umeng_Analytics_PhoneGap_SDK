@@ -21,7 +21,7 @@
                 <param name="ios-package" value="UMPlugin"/>
             </feature>
         </config-file>
-        <source-file src="src/ios/UMMobClick.framework" framework="true" />
+        <framework src="src/ios/UMMobClick.framework" custom="true" />
         <framework src="CoreTelephony.framework" />
         <framework src="libsqlite3.tbd"/>
         <framework src="libz.tbd"/>
